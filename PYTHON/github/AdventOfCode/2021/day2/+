@@ -1,0 +1,12 @@
+string = "00100"
+
+value = [char for char in string] 
+
+print(len(value))
+
+sum = 0
+multiplyer = 0
+
+for i in range(len(value), 0, -1):
+    if value[i]==1:
+        
